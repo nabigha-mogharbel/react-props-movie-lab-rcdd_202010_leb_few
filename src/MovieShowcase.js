@@ -9,6 +9,6 @@ export default class MovieShowcase extends Component {
   };
 
   render() {
-    return <div id="movie-showcase">{this.generateMovieCards}</div>;
+    return <div id="movie-showcase">{this.generateMovieCards()}</div>;
   }
 }
